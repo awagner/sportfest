@@ -1,0 +1,72 @@
+.smalltable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+#overview {
+    overflow-x: scroll;
+}
+
+.smalltable td {
+    width: 50%;
+    padding: 4px;
+}
+
+table.overview-table {
+    border-collapse: collapse;
+    
+}
+
+.overview-table td {
+    padding: 4px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+
+.overview-table tr.sumrow td, 
+.smalltable tr.sumrow td {
+    border-top : 2px solid #333333;
+}
+
+.overview-table tr.headerrow td {
+    border-bottom : 2px solid #333333;
+}
+
+.bg-red {
+    border-top: 4px solid red;
+}
+
+.bg-green {
+    border-top: 4px solid green;
+}
+
+.message {
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    padding: 4px;
+    width: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.bg-orange {
+    border-top: 4px solid chocolate;
+}
+
+.bg-yellow {
+    border-top: 4px solid yellow;
+}
+
+.ui-content, 
+body.ui-mobile-viewport, div.ui-mobile-viewport, 
+.ui-mobile .ui-page-active {
+    overflow-x: visible;
+}
